@@ -3,10 +3,10 @@
 #include <unistd.h>
 #include <string.h>
 
-const int MAX = 255;
+const int MAXNUM = 255;
 
 int main(){
-for(int i = 0; i < MAX;++i){
+for(int i = 0; i < MAXNUM;++i){
     char *s;
     printf("Error(%d):%s\n",i,strerror(i));
 }
