@@ -12,12 +12,12 @@ int main(int argc, char** argv){
 	perror("uname");
 	return -1;
     }
-    printf("Sys:%s/n",buf.sysname);
-    printf("Node:%s/n", buf.nodename);
-    printf("Release:%s/n", buf.release);
-    printf("Version:%s/n", buf.version);
-    printf("Machine:%s/n", buf.machine);
-   // printf("Domain:%s/n", buf.domainname);
+    printf("Sys:%s\n",buf.sysname);
+    printf("Node:%s\n", buf.nodename);
+    printf("Release:%s\n", buf.release);
+    printf("Version:%s\n", buf.version);
+    printf("Machine:%s\n", buf.machine);
+   // printf("Domain:%s\n", buf.domainname);
    //domainname comentado porque no me funciona 
    return 1;
 }
