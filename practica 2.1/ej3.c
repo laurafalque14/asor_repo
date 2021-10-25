@@ -6,7 +6,8 @@
 const int MAXNUM = 255;
 
 int main(){
-for(int i = 0; i < MAXNUM;++i){
+    int i = 0;
+for(i; i < MAXNUM;++i){
     char *s;
     printf("Error(%d):%s\n",i,strerror(i));
 }
