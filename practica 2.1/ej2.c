@@ -6,6 +6,6 @@
 int main(){
 char *s;
 if(setuid(0) == -1)
-   printf("Error:(%d):%s\n", errno, strerror(erno));
+   printf("Error:(%d):%s\n", errno, strerror(errno));
 return 1;
 }
